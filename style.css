@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+section {
+    padding: 15vh 0 0 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 25px 5px rgba(153,153,153,1);
+    background-color: white;
+    border-radius: 10px;
+}
+
+body > .fore {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 200px;
+    width: 90%;
+    margin: 0 5%;
+    position: absolute; 
+    z-index: -1;
+    border-radius: 30px;
+    background-image: linear-gradient(#2401eba2, #3191d1b0), url("https://wallpaperaccess.com/full/917804.jpg");
+}
+
+#display {
+    text-align: right;
+    height: 60px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: xx-large;
+}
+
+.button {
+    /* border: 0.5px solid #999; */
+    border-radius: 10px;
+    line-height: 80px;
+    width: calc(100%/4 - 2px);
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    user-select: none;
+}
